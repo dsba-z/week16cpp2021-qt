@@ -6,7 +6,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    variable = 10;
+    
     QString buttonText = ui->pushButton->text();
     
     ui->pushButton->setText("Click me!");
