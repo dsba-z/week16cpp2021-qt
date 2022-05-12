@@ -5,14 +5,22 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
-    ui->setupUi(this);
-    variable = 10;
-    QString buttonText = ui->pushButton->text();
     
-    ui->pushButton->setText("Click me!");
+    ui->setupUi(this);
+    
+    this->setWindowTitle("asd");
+    
+    variable = 10;
+    ui->MY_BUTTON->setText("BUTTONBUTTONBUTTON");
+    
+    
+    
+//    QString buttonText = ui->pushButton->text();
+    
     QFont curFont = ui->label->font();
     curFont.setPointSize(10);
     ui->label->setFont(curFont);
+    
 }
 
 MainWindow::~MainWindow()

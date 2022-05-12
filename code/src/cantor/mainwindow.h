@@ -29,6 +29,7 @@ private slots:
 private:
     Ui::MainWindow* ui;
     RenderArea* _renderArea;
+    
     //QTextEdit* _renderArea;
 
 };
